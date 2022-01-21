@@ -1,5 +1,10 @@
-/*
-  Theme Name: The Futureneers
-  Author: Sam Roberts
-  Version: 0.1
-*/
+/*! 
+  Theme Name:         The Futureneers
+  Theme URI:          https://github.com/samroberts707/futureneers-wp-theme
+  Author:             Sam Roberts
+  Version:            0.1
+  Requires PHP:       7.4
+  Requires at least:  5.4
+*/@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");:root{--white: #FFFFFF;--light-grey: #E9E9EB;--grey: #B3B3B8;--black: #262633;--orange: #FF5714;--navy: #234287;--turquiose: #00D9C0;--light-blue: ##65AFFF;--pink: #FF4AB6;--mauve: #E5CEDC;--beige: #FFEFD3;--light-beige: #FFFCF6}.container{position:relative;display:block;width:calc(100% - 100px);padding-left:50px;padding-right:50px;margin-left:auto;margin-right:auto}@media (min-width: 576px){.container{max-width:540px}}@media (min-width: 768px){.container{max-width:720px}}@media (min-width: 992px){.container{max-width:960px}}@media (min-width: 1200px){.container{max-width:1240px}}
+
+/*# sourceMappingURL=style.css.map */
