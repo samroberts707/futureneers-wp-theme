@@ -9,6 +9,7 @@ footer {
       position: relative;
       grid-template-columns: 16px 33px 40px 36px 32px;
       grid-gap: 35px;
+      margin-bottom: 40px;
       a.social-link {
         display: block;
         position: relative;
@@ -27,6 +28,25 @@ footer {
           object-fit: contain;
           object-position: center center;
           transition: opacity 0.1s ease;
+        }
+      }
+    }
+    div.get-in-touch-block {
+      position: relative;
+      display: grid;
+      grid-template-columns: 350px 365px;
+      grid-gap: 0 100px;
+      align-items: end;
+      margin-bottom: 40px;
+      > p {
+        grid-column: 1 / 3;
+      }
+      div.contact-details, div.address {
+        p {
+          margin: 0 0 5px 0;
+          strong {
+            color: var(--orange);
+          }
         }
       }
     }
