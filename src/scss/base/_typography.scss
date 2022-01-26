@@ -1,1 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@font-face {
+  font-family: "Gila";
+  src: url("./src/fonts/Gila.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gila";
+  src: url("./src/fonts/Gila-Bold.otf");
+  font-weight: 700;
+}
+
+h1, h2, blockquote {
+  font-family: 'Gila', sans-serif;
+}
+h3, h4, h5, h6, p, li, a, span, button {
+  font-family: 'Epilogue', Arial, sans-serif;
+}
+
+h1 {
+  font-size: 90px;
+  line-height: 100px;
+  font-weight: 400;
+  color: var(--navy);
+}
+h2 {
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 400;
+}
+h3 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+}
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+blockquote {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+p, li, a, span, button {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+}
