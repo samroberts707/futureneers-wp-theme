@@ -1,0 +1,117 @@
+body {
+  &.admin-bar {
+    nav#navigation {
+      div#navbar {
+        top: 32px;
+      }
+    }
+  }
+  nav#navigation {
+    display: block;
+    top: 0;
+    left: 0;
+    div#navbar {
+      position: fixed;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 10;
+      background-color: transparent;
+      transition: background-color .3s ease-in-out;
+      .logo-wrapper {
+        display: block;
+        position: relative;
+        margin-top: 24px;
+        margin-left: 16px;
+        transition: margin .3s ease-in-out;
+        img.logo {
+          display: block;
+          position: relative;
+          width: 492px;
+          height: 154px;
+          transition: width .3s ease-in-out, height .3s ease-in-out;
+        }
+      }
+      div.hamburger {
+        display: block;
+        position: relative;
+        align-self: start;
+        justify-self: right;
+        margin-right: 63px;
+        margin-top: 73px;
+        cursor: pointer;
+        transition: margin .3s ease-in-out;
+        svg {
+          path {
+            transition: stroke .3s ease-in-out;
+          }
+        }
+      }
+      &.scroll-nav {
+        background-color: var(--navy);
+        .logo-wrapper {
+          margin-top: 0;
+        }
+        img.logo {
+          width: 285px;
+          height: 89px;
+        }
+        div.hamburger {
+          margin-top: 27px;
+          svg {
+            path {
+              stroke: var(--orange);
+            }
+          }
+        }
+      }
+      &.open {
+        div.hamburger {
+          svg {
+            path {
+              stroke: var(--orange);
+            }
+          }
+        }
+      }
+    }
+    div#nav_menu {
+      display: grid;
+      position: fixed;
+      top: 0;
+      right: -100vw;
+      width: calc(100vw - 120px);
+      height: 100vh;
+      padding-left: 120px;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-items: left;
+      background-color: var(--navy);
+      z-index: 9;
+      transition: right .3s ease-in-out;
+      &.open {
+        right: 0;
+      }
+      div.menu-main-nav-container {
+        ul#menu-main-nav {
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          li {
+            margin: 43px 0;
+            a {
+              font-family: 'Gila', sans-serif;
+              font-size: 60px;
+              line-height: 65px;
+              font-weight: 400;
+              color: #FFFFFF;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
