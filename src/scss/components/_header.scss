@@ -1,0 +1,25 @@
+div.header {
+  display: block;
+  position: relative;
+  background-image: url('./src/images/futureneers_hero.svg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  div.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: left;
+    min-height: 100vh;
+    h1 {
+      color: #FFFFFF;
+      span {
+        font-family: inherit;
+        font-weight: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        color: var(--navy);
+      }
+    }
+  }
+}

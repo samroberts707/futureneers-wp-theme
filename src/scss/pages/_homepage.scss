@@ -1,0 +1,13 @@
+body.home {
+  display: block;
+  position: relative;
+  @import '../components/header';
+  div.intro {
+    padding: 67px 0 93px 0;
+    div.container {
+      h2, p {
+        width: 66%;
+      }
+    }
+  }
+}

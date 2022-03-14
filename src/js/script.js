@@ -11,6 +11,6 @@ window.onscroll = function () {
 function toggleNav() {
   var navbar = document.getElementById('navbar')
   navbar.classList.toggle("open");
-  var navMenu = document.getElementById("menu");
+  var navMenu = document.getElementById("nav_menu");
   navMenu.classList.toggle("open");
 }

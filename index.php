@@ -1,10 +1,15 @@
 <?php get_header(); ?>
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-<blockquote>Quote</blockquote>
-<p>Paragraph</p>
+  <div class="header">
+    <div class="container">
+      <h1>Preparing <span>young people</span> for the real world<span>.</span></h1>
+    </div>
+  </div>
+  <div class="intro">
+    <div class="container">
+      <h2>What’s our purpose?</h2>
+      <p><strong>We believe all young people deserve the opportunity to excel in life – regardless of their background, aspirations, learning styles, skills or interests.</strong></p>
+      <p>Our work supports young people to focus on what matters to them and equips them with the self-belief and capability to fulfil their potential - regardless of their story so far.</p>
+      <p>We’re here for the square pegs, the non-conformists, the ones that don’t fit the education system’s current mould - you can succeed and we’re to help you do so.</p>
+    </div>
+  </div>
 <?php get_footer(); ?>
