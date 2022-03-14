@@ -6,6 +6,19 @@ body {
       }
     }
   }
+  &.page {
+    nav#navigation {
+      div#navbar {
+        div.hamburger {
+          svg {
+            path {
+              stroke: var(--orange);
+            }
+          }
+        }
+      }
+    }
+  }
   nav#navigation {
     display: block;
     top: 0;

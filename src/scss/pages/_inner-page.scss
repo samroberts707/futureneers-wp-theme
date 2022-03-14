@@ -1,0 +1,16 @@
+body.page {
+  display: block;
+  position: relative;
+  div.banner {
+    display: block;
+    position: relative;
+    background-color: var(--navy);
+    padding: 265px 0 207px 0;
+    div.container {
+      * {
+        width: 66%;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
